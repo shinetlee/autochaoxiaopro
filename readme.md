@@ -1,6 +1,6 @@
 # 智教云/chaoxiaopro/芜湖微校的刷课脚本
 
-[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)]()
+[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv3-green.svg)](LICENSE) [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)]()
 
 一个基于 Python 的自动化学习辅助工具，适用于智教云 / chaoxiaopro.cn 在线课程平台，可实现：
 
@@ -54,13 +54,13 @@ pip install -r requirements.txt
 
 > ⚠️ Token 是你的账号凭证，请**不要分享**给任何人！Token 有有效期，过期需重新获取
 
-<img src="images/1.png">
+<img src="image/1.png">
 
 
 **4.直接运行main.py**
 如图按照提示操作，为防止后台检测。**不建议**使用立即完成和倍速模式。​**建议使用「常速模拟」模式**​，避免被平台检测。
 
-<img src="images/2.png" >
+<img src="image/2.png" >
 
 ---
 
