@@ -45,12 +45,15 @@ pip install -r requirements.txt
 
 **3.编辑token.txt**（选择方法二的用户直接跳过前两个步骤）
 
-1.登录学校的在线课程平台，（以芜湖职业技术大学为例，不同学校登录网站和接口可能不同）[https://school-web.chaoxiaopro.cn/student/]([https://](https://school-web.chaoxiaopro.cn/student/))
+1.登录学校的在线课程平台，（以芜湖职业技术大学为例，不同学校登录网站和接口可能不同）[https://school-web.chaoxiaopro.cn/student/](https://school-web.chaoxiaopro.cn/student/) 
+
 2.按下F12打开浏览器开发者工具，选择网络菜单。点击课程学习或其它界面。
+
 3.在请求头找到 ``Authorization: Bearer xxxxxxxxxxxxxx``
+
 4.复制 `Bearer` 后面的全部内容，粘贴到 `token.txt`
 
-1. 复制 Bearer 后面的​**全部内容**​，粘贴到 token.txt 文件中
+5.复制 Bearer 后面的​**全部内容**​，粘贴到 token.txt 文件中
 
 > ⚠️ Token 是你的账号凭证，请**不要分享**给任何人！Token 有有效期，过期需重新获取
 
