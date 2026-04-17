@@ -28,7 +28,7 @@
 
 #### 方法二：直接运行 EXE
 
-如果你不熟悉 Python，可前往 `Releases` 页面下载打包好的 `.exe` 文件（适用于 Windows）。
+如果你不熟悉 Python，可前往[Releases](https://github.com/shinetlee/autochaoxiaopro/releases)页面下载打包好的 `.exe` 文件（适用于 Windows）。
 
 ## 用法/示例
 
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 **3.编辑token.txt**（选择方法二的用户直接跳过前两个步骤）
 
-1.登录学校的在线课程平台，（以芜湖职业技术大学为例，不同学校登录网站和接口可能不同）[https://school-web.chaoxiaopro.cn/student/](https://school-web.chaoxiaopro.cn/student/) 
+1.登录学校的在线课程平台，（以芜湖职业技术大学为例，不同学校登录网站和接口可能不同）[https://school-web.chaoxiaopro.cn/student/](https://school-web.chaoxiaopro.cn/student/)
 
 2.按下F12打开浏览器开发者工具，选择网络菜单。点击课程学习或其它界面。
 
@@ -59,7 +59,6 @@ pip install -r requirements.txt
 
 <img src="image/1.png">
 
-
 **4.直接运行main.py**
 如图按照提示操作，为防止后台检测。**不建议**使用立即完成和倍速模式。​**建议使用「常速模拟」模式**​，避免被平台检测。
 
@@ -70,4 +69,6 @@ pip install -r requirements.txt
 ### 免责声明
 
 **仅供个人学习与技术交流使用，使用该脚本导致的成绩无效等后果，由使用者自行承担。本脚本仅为基本的抓包发包网络请求，不存在破解、逆向等违法操作**
+
+
 
