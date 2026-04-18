@@ -53,7 +53,6 @@ pip install -r requirements.txt
 
 4.复制 `Bearer` 后面的全部内容，粘贴到 `token.txt`
 
-5.复制 Bearer 后面的​**全部内容**​，粘贴到 token.txt 文件中
 
 > ⚠️ Token 是你的账号凭证，请**不要分享**给任何人！Token 有有效期，过期需重新获取
 
@@ -65,6 +64,14 @@ pip install -r requirements.txt
 <img src="image/2.png" >
 
 ---
+
+### 文件说明
+    ├── api.py            # API 客户端封装（课程/章节/视频/测验接口）
+    ├── main.py           # 交互式入口（token 自动从 token.txt 读取）
+    ├── flusher.py        # 核心逻辑（视频进度上报、章节遍历）
+    ├── quiz_solver.py    # 测验解密 + 提交
+    ├── decrypt.py        # AES 解密答案工具
+
 
 ### 免责声明
 
