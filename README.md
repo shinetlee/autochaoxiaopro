@@ -1,16 +1,16 @@
-# 智教云/chaoxiaopro/芜湖微校的刷课脚本
+# 智教云刷课/chaoxiaopro刷课脚本
 
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv3-green.svg)](LICENSE) [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)]()
 
 一个基于 Python 的自动化学习辅助工具，适用于智教云 / chaoxiaopro.cn 在线课程平台，可实现：
 
-* 📺 自动刷课
-* 📝 自动完成章节测验（基础支持）
-* ⏱ 模拟正常学习流程（降低检测风险）
+* 自动刷课
+* 自动完成章节测验
+* 模拟正常速度和一秒刷完
 
 > ⚠️ \*\*仅供个人学习与技术交流使用\*\*。使用本脚本造成的任何后果（账号被封、成绩无效等）由使用者自行承担。
 
-> * ❌ 禁止用于商业用途或“付费代刷“
+> * ❌ 禁止用于商业用途如“付费代刷“
 
 > * ❌ 禁止倒卖本项目
 
@@ -43,11 +43,11 @@ pip install -r requirements.txt
 
 ---
 
-**3.编辑token.txt**（选择方法二的用户直接跳过前两个步骤）
+**3.编辑token.txt**（选择方法二的用户直接跳过之前的两个步骤）
 
-1.登录学校的在线课程平台，（以芜湖职业技术大学为例，不同学校登录网站和接口可能不同）[https://school-web.chaoxiaopro.cn/student/](https://school-web.chaoxiaopro.cn/student/)
+1.登录学校的在线课程平台[https://school-web.chaoxiaopro.cn/student/](https://school-web.chaoxiaopro.cn/student/)
 
-2.按下F12打开浏览器开发者工具，选择网络菜单。点击课程学习或其它界面。
+2.按下F12打开浏览器开发者工具，选择网络菜单。点击随便点一个界面，如课程学习。
 
 3.在请求头找到 ``Authorization: Bearer xxxxxxxxxxxxxx``
 
@@ -73,9 +73,9 @@ pip install -r requirements.txt
     ├── decrypt.py        # AES 解密答案工具
 
 
-### 免责声明
+### 声明
 
-**仅供个人学习与技术交流使用，使用该脚本导致的成绩无效等后果，由使用者自行承担。本脚本仅为基本的抓包发包网络请求，不存在破解、逆向等违法操作**
+**仅供个人学习与技术交流使用，使用该脚本导致的成绩无效等后果，由使用者自行承担。**请遵守GPLv3开源协议，禁止将代码用于商业用途。
 
 
 
